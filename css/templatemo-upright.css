@@ -129,13 +129,13 @@ hr { border-top: 4px solid #CCC; }
 
 .tm-brand-box {
 	width: px;
-    height: 180px;
+    height: 200px;
     background: #006699;
     color: white;
     display: flex;
     align-items: center;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 #tm-main-nav {
