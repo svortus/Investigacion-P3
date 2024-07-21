@@ -49,6 +49,17 @@ hr { border-top: 4px solid #CCC; }
 	margin-right: auto;
 }
 
+/* para la ventana emergente */
+.popup-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
 /* Layout */
 
 .tm-main { width: 100%; }
@@ -74,12 +85,13 @@ hr { border-top: 4px solid #CCC; }
 
 .tm-section-wrap {
 	width: calc(100% - px);
-	margin-left: 320px;
+	margin-left: 370px;
 	margin-right: 0;
 	position: relative;
 }
 
-.tm-section { padding: 40px 70px 50px 0; }
+.tm-section { padding: 40px 70px 50px 0; 
+}
 
 #gallery,
 #about,
@@ -246,7 +258,7 @@ hr { border-top: 4px solid #CCC; }
 
 .tm-gallery {
 	position: relative;
-	margin: 100 -10px;
+	margin: 100;
 	list-style: none;
 	text-align: center;
 	overflow: hidden;
