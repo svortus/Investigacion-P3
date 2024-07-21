@@ -69,17 +69,17 @@ hr { border-top: 4px solid #CCC; }
 	z-index: 1000;
 	padding-left: 40px;
 	padding-top: 40px;
-	width: 280px;
+	width: 300px;
 }
 
 .tm-section-wrap {
-	width: calc(100% - 750px);
-	margin-left: 750px;
+	width: calc(100% - px);
+	margin-left: 320px;
 	margin-right: 0;
 	position: relative;
 }
 
-.tm-section { padding: 50px 70px 50px 0; }
+.tm-section { padding: 40px 70px 50px 0; }
 
 #gallery,
 #about,
@@ -127,14 +127,14 @@ hr { border-top: 4px solid #CCC; }
 .navbar-toggler { display: none; }
 
 .tm-brand-box {
-	width: 240px;
+	width: px;
     height: 180px;
     background: #006699;
     color: white;
     display: flex;
     align-items: center;
-	justify-content: center;
-	margin-bottom: 100px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 #tm-main-nav {
@@ -588,7 +588,7 @@ figure.effect-honey:hover ul li a {
 	opacity: 0;
 }
 
-.tm-about-title { font-size: 24px; }
+.tm-about-title { font-size: 25px; }
 .tm-about-subtitle { font-size: 20px; }
 
 /* Contact */
