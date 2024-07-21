@@ -243,9 +243,10 @@ hr { border-top: 4px solid #CCC; }
 }
 
 /* Gallery section */
+
 .tm-gallery {
 	position: relative;
-	margin: 0 -10px;
+	margin: 100 -10px;
 	list-style: none;
 	text-align: center;
 	overflow: hidden;
